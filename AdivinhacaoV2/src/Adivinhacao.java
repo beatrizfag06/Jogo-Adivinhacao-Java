@@ -9,9 +9,7 @@ public class Adivinhacao {
         int numero = new Random().nextInt(10+1);
         int chute = 0;
         int tentativas = 0 + 1;
-        String plural = "tentativas";
-        String singular = "tentativa";
-
+        
         while (tentativas <= 5){
             System.out.println("Digite um número de 0 a 10 para ser seu chute: ");
             chute = sc.nextInt();
